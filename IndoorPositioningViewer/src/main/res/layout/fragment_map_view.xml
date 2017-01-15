@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="0dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_map_floor_tv"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
+
+        <de.hadizadeh.positioning.roommodel.android.TouchView
+                                                  android:id="@+id/fragment_map_canvas_box"
+                                                  android:layout_width="fill_parent"
+                                                  android:layout_height="fill_parent"
+                                                  android:layout_below="@+id/fragment_map_floor_tv"/>
+
+</RelativeLayout>

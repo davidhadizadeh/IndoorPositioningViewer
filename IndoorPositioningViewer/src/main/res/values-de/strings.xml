@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Position Viewer</string>
+
+    <string name="drawer_open">Öffnen</string>
+    <string name="drawer_close">Schließen</string>
+
+
+    <string name="scanning_for_position">Inhalt in der Umgebung wird gesucht</string>
+    <string name="floor">Stockwerk</string>
+
+    <string name="menu_explore_map">Karte erkunden</string>
+    <string name="menu_auto_position">Position anzeigen</string>
+    <string name="menu_auto_content">Inhaltsführung</string>
+    <string name="menu_explore_content">Inhalte erkunden</string>
+
+    <string name="confirmation">Bestätigung</string>
+    <string name="question_confirm_download">Sind Sie sicher, dass Sie die neuen Daten downloaden wollen?</string>
+    <string name="opening_data">Daten werden geoeffnet...</string>
+    <string name="enable_location_service">Der notwendige location service ist derzeit deaktiviert, wollen Sie ihn aktivieren?</string>
+    <string name="enable_location_service_yes">Ja</string>
+    <string name="enable_location_service_no">Nein</string>
+    <string name="downloading_data">Daten werden gedownloaded...</string>
+
+    <string name="content_tab_overview">Übersicht</string>
+    <string name="content_tab_website">Webseite</string>
+    <string name="content_tab_text">Beschreibung</string>
+    <string name="content_tab_audio">Audio</string>
+    <string name="content_tab_video">Video</string>
+
+    <string name="correct_position">Richtig</string>
+    <string name="wrong_position">Falsch</string>
+</resources>

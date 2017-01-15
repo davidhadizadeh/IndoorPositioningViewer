@@ -1,0 +1,50 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.1.1'
+    }
+}
+apply plugin: 'com.android.application'
+
+repositories {
+    jcenter()
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.0"
+
+    defaultConfig {
+        applicationId "de.hadizadeh.positioning.viewer"
+        minSdkVersion 18
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.android.support:support-v13:23.0.0'
+    compile 'com.android.support:design:23.0.0'
+    compile files('../../IndoorPositioningLibrary/out/indoor-positioning-1.0.jar')
+    compile files('../../IndoorPositioningContentLibrary/out/indoor_positioning_content_1_0/indoor-positioning-content-1.0.jar')
+    compile files('../../IndoorPositioningModelLibrary/out/artifacts/indoor_positioning_model_1_0/indoor-positioning-model-1.0.jar')
+    compile files('../../IndoorPositioningModelAndroidLibrary/out/artifacts/indoor_positioning_model_android/indoor-positioning-model-android.jar')
+    //androidTestCompile 'com.android.support.test:testing-support-lin:0.1'
+    testCompile 'junit:junit:4.12'
+}

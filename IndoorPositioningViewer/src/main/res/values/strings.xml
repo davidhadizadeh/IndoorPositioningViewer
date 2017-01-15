@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Position Viewer</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+
+    <string name="scanning_for_position">Searching for close content</string>
+    <string name="floor">Floor</string>
+
+    <string name="menu_explore_map">Explore map</string>
+    <string name="menu_auto_position">Show position</string>
+    <string name="menu_auto_content">Content Guide</string>
+    <string name="menu_explore_content">Explore Contents</string>
+
+    <string name="confirmation">Confirmation</string>
+    <string name="question_confirm_download">Are you sure you want to download new data?</string>
+    <string name="opening_data">Opening data...</string>
+    <string name="enable_location_service">Your location service which is necessary for positioning seems to be disabled, do you want to enable it?</string>
+    <string name="enable_location_service_yes">Yes</string>
+    <string name="enable_location_service_no">No</string>
+    <string name="downloading_data">Downloading...</string>
+
+    <string name="content_tab_overview">Overview</string>
+    <string name="content_tab_website">Website</string>
+    <string name="content_tab_text">Description</string>
+    <string name="content_tab_audio">Audio</string>
+    <string name="content_tab_video">Video</string>
+
+    <string name="correct_position">Correct</string>
+    <string name="wrong_position">Wrong</string>
+</resources>

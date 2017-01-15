@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="light_gray_lines">#e5e5e5</color>
+    <color name="light_gray_subtitle">#7f7f7f</color>
+    <color name="red">#DE3134</color>
+    <color name="content_background">#ffffff</color>
+
+    <color name="light_gray">#eeeeee</color>
+    <color name="dark_gray">#2f2f2f</color>
+    <color name="gray">#757575</color>
+</resources>

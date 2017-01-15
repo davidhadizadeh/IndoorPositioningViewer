@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_main_data_path">de.hadizadeh.positioning.viewer/files/PositioningData</string>
+    <string name="settings_default_webservice">http://hadizadeh.de:8080/indoor-positioning/</string>
+    <string name="settings_default_project">Cleopa</string>
+    <!--<string name="settings_default_project">HadizadehZuHause</string>-->
+    <string name="settings_default_wifi_ssid">Cleopa Gast</string>
+    <string name="settings_default_wifi_password">WILL!kommen2015</string>
+
+
+    <string name="extra_follow_position">extra_follow_position</string>
+    <string name="extra_last_x">extra_last_x</string>
+    <string name="extra_last_y">extra_last_y</string>
+    <string name="extyra_last_z">extyra_last_z</string>
+
+    <string name="fragment_content_extra_started">extra_started</string>
+    <string name="fragment_content_extra_title">extra_title</string>
+    <string name="fragment_content_extra_audioFileName">extra_audioFileName</string>
+    <string name="fragment_content_extra_videoFileName">extra_videoFileName</string>
+    <string name="fragment_content_extra_description">extra_description</string>
+    <string name="fragment_content_extra_image">extra_image</string>
+    <string name="fragment_content_extra_full_text">extra_full_text</string>
+</resources>
